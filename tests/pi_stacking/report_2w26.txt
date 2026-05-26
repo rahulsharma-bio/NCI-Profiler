@@ -1,0 +1,79 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 2w26.pdb
+Date: 2026-05-26 15:36:27
+Total Interactions: 23
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       3
+Hydrogen Bonds                    10
+Hydrophobic                        2
+Metal Coordination                 8
+-----------------------------------
+TOTAL                             23
+
+
+================================================================================
+Π-Π STACKING (3)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TYR99         offset-parallel  4.33       25.7°     
+2     A:PHE174        offset-parallel  4.36       20.2°     
+3     A:TRP215        T-shaped         4.91       89.7°     
+
+
+================================================================================
+HYDROGEN BONDS (10)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:THR98         N            O5           3.47       Protein donor (N) -> Ligand   
+2     A:TYR99         N            O5           3.46       Protein donor (N) -> Ligand   
+3     A:GLY219        N            O17          3.43       Protein donor (N) -> Ligand   
+4     A:GLY219        N            O19          2.97       Protein donor (N) -> Ligand   
+5     A:GLU97         O            O5           3.32       Ligand donor (O5) -> Protein  
+6     A:THR98         O            O5           3.16       Ligand donor (O5) -> Protein  
+7     A:GLY216        O            N14          3.00       Ligand donor (N14) -> Protei  
+8     A:GLY216        O            O17          3.47       Ligand donor (O17) -> Protei  
+9     A:GLY216        O            O19          2.86       Ligand donor (O19) -> Protei  
+10    A:GLY219        O            N21          3.26       Ligand donor (N21) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:ALA190        CB           C26          4.16      
+2     A:TRP215        CB           C10          3.71      
+
+
+================================================================================
+METAL COORDINATION (8)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASN72         2.37       metal=CA; metal_id=A:CA1244; metal_atom_name=CA   
+2     A:GLN75         2.27       metal=CA; metal_id=A:CA1244; metal_atom_name=CA   
+3     HOH2019         2.40       metal=CA; metal_id=A:CA1244; metal_atom_name=CA   
+4     HOH2020         2.48       metal=CA; metal_id=A:CA1244; metal_atom_name=CA   
+5     A:TYR185        2.21       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+6     A:ASP185        2.59       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+7     A:ARG222        2.33       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+8     A:LYS224        2.27       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+
+
+================================================================================
+END OF REPORT
+================================================================================

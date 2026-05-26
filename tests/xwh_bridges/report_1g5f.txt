@@ -1,0 +1,68 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1g5f.pdb
+Date: 2026-05-26 15:36:31
+Total Interactions: 21
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+XWH Bridges                        4
+Hydrophobic                        7
+Metal Coordination                10
+-----------------------------------
+TOTAL                             21
+
+
+================================================================================
+XWH BRIDGES (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP108        2.88       halogen=CL; water_id=2528; water_res_seq=757      
+2     A:TRP109        3.28       halogen=CL; water_id=2528; water_res_seq=757      
+3     A:ASN38         2.65       halogen=CL; water_id=2637; water_res_seq=866      
+4     A:ASP108        2.46       halogen=CL; water_id=2637; water_res_seq=866      
+
+
+================================================================================
+HYDROPHOBIC (7)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:PHE143        CE1          C1           4.41      
+2     A:PHE143        CZ           C2           4.25      
+3     A:PHE151        CE1          C2           4.28      
+4     A:PHE151        CE2          C1           4.14      
+5     A:VAL173        CG1          C2           4.34      
+6     A:LEU177        CD1          C2           3.52      
+7     A:HIS272        CG           C2           4.02      
+
+
+================================================================================
+METAL COORDINATION (10)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:GLN152        2.29       metal=CA; metal_id=A:CA501; metal_atom_name=CA    
+2     HOH788          2.46       metal=CA; metal_id=A:CA501; metal_atom_name=CA    
+3     HOH870          2.45       metal=CA; metal_id=A:CA501; metal_atom_name=CA    
+4     HOH638          2.60       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+5     HOH665          2.53       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+6     HOH709          2.56       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+7     HOH838          2.53       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+8     A:PRO175        2.33       metal=CA; metal_id=A:CA503; metal_atom_name=CA    
+9     A:ILE178        2.37       metal=CA; metal_id=A:CA503; metal_atom_name=CA    
+10    HOH631          2.41       metal=CA; metal_id=A:CA503; metal_atom_name=CA    
+
+
+================================================================================
+END OF REPORT
+================================================================================

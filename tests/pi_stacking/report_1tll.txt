@@ -1,0 +1,102 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1tll.pdb
+Date: 2026-05-26 15:36:28
+Total Interactions: 28
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       2
+π-π Stacking                       2
+Cation-π                           3
+Water Bridges                      4
+Hydrogen Bonds                    16
+Hydrophobic                        1
+-----------------------------------
+TOTAL                             28
+
+
+================================================================================
+SALT BRIDGES (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:ARG1173       NE, CZ       PA, O1A      4.84       Protein+ (guanidinium) - Ligand- (phosphate)
+2     A:ARG1173       NE, CZ       P, O5'       4.84       Protein+ (guanidinium) - Ligand- (phosphate)
+
+
+================================================================================
+Π-Π STACKING (2)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TYR1175       T-shaped         4.57       65.7°     
+2     A:PHE1395       offset-parallel  4.37       10.9°     
+
+
+================================================================================
+CATION-Π (3)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:TYR1197       4.28       Ligand cation (amidinium) -> Protein π (TYR)
+2     A:TYR1197       3.81       Ligand cation (secondary_amine) -> Protein π (TYR)
+3     A:TYR1197       3.67       Ligand cation (secondary_amine) -> Protein π (TYR)
+
+
+================================================================================
+WATER BRIDGES (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:THR1251       3.05       water_id=10208; water_res_seq=5020; prot_water_dist=2.95
+2     A:TYR1197       2.81       water_id=10218; water_res_seq=5030; prot_water_dist=2.60
+3     A:TYR1197       2.71       water_id=10218; water_res_seq=5030; prot_water_dist=2.60
+4     A:HIS1208       3.21       water_id=10222; water_res_seq=5034; prot_water_dist=3.17
+
+
+================================================================================
+HYDROGEN BONDS (16)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:TYR1175       OH           O4'          2.69       Protein donor (OH) -> Ligand  
+2     A:SER1176       N            O4           2.89       Protein donor (N) -> Ligand   
+3     A:SER1176       N            N5           3.38       Protein donor (N) -> Ligand   
+4     A:ALA1193       N            O2           3.08       Protein donor (N) -> Ligand   
+5     A:VAL1210       N            O1A          3.08       Protein donor (N) -> Ligand   
+6     A:VAL1210       N            O2P          3.39       Protein donor (N) -> Ligand   
+7     A:VAL1210       N            O3P          3.43       Protein donor (N) -> Ligand   
+8     A:CYS1211       N            O1P          2.98       Protein donor (N) -> Ligand   
+9     A:CYS1211       N            O2P          3.46       Protein donor (N) -> Ligand   
+10    A:SER1212       N            O2P          3.06       Protein donor (N) -> Ligand   
+11    A:SER1212       OG           O2P          2.87       Protein donor (OG) -> Ligand  
+12    A:THR1191       O            O2           3.45       Ligand donor (O2) -> Protein  
+13    A:THR1191       O            N3           2.93       Ligand donor (N3) -> Protein  
+14    A:TYR1174       O            N5           3.41       Ligand donor (N5) -> Protein  
+15    A:TYR1174       O            N10          3.34       Ligand donor (N10) -> Protei  
+16    A:TYR1174       O            O2'          2.78       Ligand donor (O2') -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (1)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:PHE1395       CB           C9           4.11      
+
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,78 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1z6f.pdb
+Date: 2026-05-26 15:36:29
+Total Interactions: 22
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-Cation                           2
+Water Bridges                      4
+Hydrogen Bonds                    12
+Hydrophobic                        4
+-----------------------------------
+TOTAL                             22
+
+
+================================================================================
+Π-CATION (2)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:LYS84         3.84       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+2     A:LYS84         3.84       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+
+
+================================================================================
+WATER BRIDGES (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:SER86         3.29       water_id=2914; water_res_seq=575; prot_water_dist=3.29
+2     A:SER86         3.00       water_id=2914; water_res_seq=575; prot_water_dist=2.71
+3     A:SER110        2.70       water_id=3022; water_res_seq=683; prot_water_dist=2.78
+4     A:THR214        2.58       water_id=3022; water_res_seq=683; prot_water_dist=2.55
+
+
+================================================================================
+HYDROGEN BONDS (12)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:SER44         N            O2           2.75       Protein donor (N) -> Ligand   
+2     A:SER44         OG           O2           2.62       Protein donor (OG) -> Ligand  
+3     A:SER87         N            O8           3.15       Protein donor (N) -> Ligand   
+4     A:SER87         OG           O8           3.17       Protein donor (OG) -> Ligand  
+5     A:ASN112        ND2          O8           3.19       Protein donor (ND2) -> Ligan  
+6     A:ARG198        NH2          O36          2.67       Protein donor (NH2) -> Ligan  
+7     A:HIS216        N            O2           3.10       Protein donor (N) -> Ligand   
+8     A:GLY85         O            N25          2.98       Ligand donor (N25) -> Protei  
+9     A:ASN112        OD1          O8           3.07       Ligand donor (O8) -> Protein  
+10    A:HIS216        O            N6           3.15       Ligand donor (N6) -> Protein  
+11    A:HIS216        O            O2           3.03       Ligand donor (O2) -> Protein  
+12    A:LYS84         O            O16          3.01       Ligand donor (O16) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (4)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:LEU88         CB           C41          4.22      
+2     A:PHE90         CE1          C40          3.73      
+3     A:LEU153        CD2          C11          3.74      
+4     A:LEU153        CD2          C5           3.98      
+
+
+================================================================================
+END OF REPORT
+================================================================================

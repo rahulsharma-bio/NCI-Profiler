@@ -1,0 +1,137 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 5u00.pdb
+Date: 2026-05-26 15:36:21
+Total Interactions: 63
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       1
+Cation-π                           3
+Halogen Bonds                      1
+Hydrogen Bonds                     3
+Hydrophobic                       10
+Metal Coordination                45
+-----------------------------------
+TOTAL                             63
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:PHE862        π-stacked        3.80       20.9°     
+
+
+================================================================================
+CATION-Π (3)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:PHE862        3.98       Ligand cation (guanidinium) -> Protein π (PHE)
+2     A:PHE830        5.84       Ligand cation (secondary_amine) -> Protein π (PHE)
+3     A:PHE862        3.94       Ligand cation (secondary_amine) -> Protein π (PHE)
+
+
+================================================================================
+HALOGEN BONDS (1)
+================================================================================
+
+No.   Residue         Halogen      Dist(Å)    Angle(°)   Type                
+------------------------------------------------------------------------
+1     A:TYR827        I27          3.09       -          I...O               
+
+
+================================================================================
+HYDROGEN BONDS (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:HIS656        NE2          F18          3.07       Protein donor (NE2) -> Ligan  
+2     A:GLN812        NE2          N3           3.08       Protein donor (NE2) -> Ligan  
+3     A:GLN859        NE2          N7           3.13       Protein donor (NE2) -> Ligan  
+
+
+================================================================================
+HYDROPHOBIC (10)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:TYR655        CE2          C12          4.36      
+2     A:LEU770        CD1          C22          4.33      
+3     A:LEU809        CD2          C1           3.86      
+4     A:ILE822        CG2          C11          4.43      
+5     A:ILE826        CD1          C12          3.75      
+6     A:PHE830        CE2          C26          3.83      
+7     A:PHE830        CZ           C13          4.43      
+8     A:MET847        SD           C25          3.57      
+9     A:PHE862        CB           C24          3.91      
+10    A:ILE866        CD1          C23          3.76      
+
+
+================================================================================
+METAL COORDINATION (45)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS660        2.12       metal=ZN; metal_id=A:ZN1002; metal_atom_name=ZN   
+2     A:HIS696        2.09       metal=ZN; metal_id=A:ZN1002; metal_atom_name=ZN   
+3     A:ASP697        2.11       metal=ZN; metal_id=A:ZN1002; metal_atom_name=ZN   
+4     A:ASP808        2.19       metal=ZN; metal_id=A:ZN1002; metal_atom_name=ZN   
+5     HOH1195         1.98       metal=ZN; metal_id=A:ZN1002; metal_atom_name=ZN   
+6     A:ASP697        2.06       metal=MG; metal_id=A:MG1003; metal_atom_name=MG   
+7     HOH1136         2.06       metal=MG; metal_id=A:MG1003; metal_atom_name=MG   
+8     HOH1173         2.18       metal=MG; metal_id=A:MG1003; metal_atom_name=MG   
+9     HOH1195         2.03       metal=MG; metal_id=A:MG1003; metal_atom_name=MG   
+10    HOH1211         2.13       metal=MG; metal_id=A:MG1003; metal_atom_name=MG   
+11    HOH1228         2.09       metal=MG; metal_id=A:MG1003; metal_atom_name=MG   
+12    B:HIS660        2.13       metal=ZN; metal_id=B:ZN1002; metal_atom_name=ZN   
+13    B:HIS696        2.09       metal=ZN; metal_id=B:ZN1002; metal_atom_name=ZN   
+14    B:ASP697        2.10       metal=ZN; metal_id=B:ZN1002; metal_atom_name=ZN   
+15    B:ASP808        2.14       metal=ZN; metal_id=B:ZN1002; metal_atom_name=ZN   
+16    HOH1130         2.07       metal=ZN; metal_id=B:ZN1002; metal_atom_name=ZN   
+17    B:ASP697        2.05       metal=MG; metal_id=B:MG1003; metal_atom_name=MG   
+18    HOH1130         2.16       metal=MG; metal_id=B:MG1003; metal_atom_name=MG   
+19    HOH1155         2.09       metal=MG; metal_id=B:MG1003; metal_atom_name=MG   
+20    HOH1162         2.19       metal=MG; metal_id=B:MG1003; metal_atom_name=MG   
+21    HOH1174         2.19       metal=MG; metal_id=B:MG1003; metal_atom_name=MG   
+22    HOH1234         2.05       metal=MG; metal_id=B:MG1003; metal_atom_name=MG   
+23    C:HIS660        2.12       metal=ZN; metal_id=C:ZN1002; metal_atom_name=ZN   
+24    C:HIS696        2.08       metal=ZN; metal_id=C:ZN1002; metal_atom_name=ZN   
+25    C:ASP697        2.11       metal=ZN; metal_id=C:ZN1002; metal_atom_name=ZN   
+26    C:ASP808        2.10       metal=ZN; metal_id=C:ZN1002; metal_atom_name=ZN   
+27    HOH1132         1.98       metal=ZN; metal_id=C:ZN1002; metal_atom_name=ZN   
+28    C:ASP697        2.09       metal=MG; metal_id=C:MG1003; metal_atom_name=MG   
+29    HOH1130         2.08       metal=MG; metal_id=C:MG1003; metal_atom_name=MG   
+30    HOH1132         2.11       metal=MG; metal_id=C:MG1003; metal_atom_name=MG   
+31    HOH1178         2.15       metal=MG; metal_id=C:MG1003; metal_atom_name=MG   
+32    HOH1200         2.17       metal=MG; metal_id=C:MG1003; metal_atom_name=MG   
+33    HOH1237         2.08       metal=MG; metal_id=C:MG1003; metal_atom_name=MG   
+34    D:HIS660        2.08       metal=ZN; metal_id=D:ZN1002; metal_atom_name=ZN   
+35    D:HIS696        2.15       metal=ZN; metal_id=D:ZN1002; metal_atom_name=ZN   
+36    D:ASP697        2.10       metal=ZN; metal_id=D:ZN1002; metal_atom_name=ZN   
+37    D:ASP808        2.16       metal=ZN; metal_id=D:ZN1002; metal_atom_name=ZN   
+38    HOH1131         2.00       metal=ZN; metal_id=D:ZN1002; metal_atom_name=ZN   
+39    HOH1209         2.57       metal=ZN; metal_id=D:ZN1002; metal_atom_name=ZN   
+40    D:ASP697        2.01       metal=MG; metal_id=D:MG1003; metal_atom_name=MG   
+41    HOH1131         2.04       metal=MG; metal_id=D:MG1003; metal_atom_name=MG   
+42    HOH1147         2.07       metal=MG; metal_id=D:MG1003; metal_atom_name=MG   
+43    HOH1175         2.14       metal=MG; metal_id=D:MG1003; metal_atom_name=MG   
+44    HOH1208         2.18       metal=MG; metal_id=D:MG1003; metal_atom_name=MG   
+45    HOH1240         2.02       metal=MG; metal_id=D:MG1003; metal_atom_name=MG   
+
+
+================================================================================
+END OF REPORT
+================================================================================

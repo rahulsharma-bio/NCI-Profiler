@@ -1,0 +1,86 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 2y5h.pdb
+Date: 2026-05-26 15:36:17
+Total Interactions: 21
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Cation-π                           4
+Water Bridges                      2
+Hydrogen Bonds                     1
+Hydrophobic                        3
+Metal Coordination                11
+-----------------------------------
+TOTAL                             21
+
+
+================================================================================
+CATION-Π (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:TYR99         4.75       Ligand cation (quaternary_ammonium) -> Protein π (TYR)
+2     A:PHE174        4.89       Ligand cation (quaternary_ammonium) -> Protein π (PHE)
+3     A:TRP215        4.50       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+4     A:TRP215        4.65       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+
+
+================================================================================
+WATER BRIDGES (2)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:SER195        2.74       water_id=4298; water_res_seq=2234; prot_water_dist=2.71
+2     A:SER214        2.77       water_id=4298; water_res_seq=2234; prot_water_dist=2.77
+
+
+================================================================================
+HYDROGEN BONDS (1)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLY216        N            O13          3.25       Protein donor (N) -> Ligand   
+
+
+================================================================================
+HYDROPHOBIC (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:TYR99         CD1          C21          4.48      
+2     A:ALA190        CB           C24          4.34      
+3     A:TRP215        CB           C21          4.06      
+
+
+================================================================================
+METAL COORDINATION (11)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP70         2.28       metal=NA; metal_id=A:NA1245; metal_atom_name=NA   
+2     A:ASN72         2.41       metal=NA; metal_id=A:NA1245; metal_atom_name=NA   
+3     A:GLU80         2.28       metal=NA; metal_id=A:NA1245; metal_atom_name=NA   
+4     HOH2071         2.41       metal=NA; metal_id=A:NA1245; metal_atom_name=NA   
+5     HOH2077         2.48       metal=NA; metal_id=A:NA1245; metal_atom_name=NA   
+6     A:TYR185        2.31       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+7     A:ASP185        2.46       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+8     A:ARG222        2.33       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+9     A:LYS224        2.31       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+10    HOH2227         2.29       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+11    HOH2257         2.92       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+
+
+================================================================================
+END OF REPORT
+================================================================================

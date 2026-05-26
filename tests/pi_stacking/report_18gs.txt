@@ -1,0 +1,79 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 18gs.pdb
+Date: 2026-05-26 15:36:27
+Total Interactions: 23
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       2
+π-π Stacking                       1
+Water Bridges                      8
+Hydrogen Bonds                    12
+-----------------------------------
+TOTAL                             23
+
+
+================================================================================
+SALT BRIDGES (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:LYS44         NZ           C3, O31      3.06       Protein+ (primary_amine) - Ligand- (carboxylate)
+2     B:ASP98         OD1, OD2     N1           2.97       Protein- (carboxylate) - Ligand+ (primary_amine)
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TYR108        offset-parallel  4.14       20.4°     
+
+
+================================================================================
+WATER BRIDGES (8)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:PRO53         3.11       water_id=3357; water_res_seq=216; prot_water_dist=3.39
+2     A:PRO53         2.82       water_id=3357; water_res_seq=216; prot_water_dist=2.82
+3     A:ASN66         3.06       water_id=3397; water_res_seq=256; prot_water_dist=3.00
+4     A:ASN66         3.09       water_id=3397; water_res_seq=256; prot_water_dist=3.06
+5     A:ASN66         3.03       water_id=3429; water_res_seq=288; prot_water_dist=3.30
+6     A:GLU97         2.97       water_id=3429; water_res_seq=288; prot_water_dist=2.79
+7     A:GLU97         2.77       water_id=3429; water_res_seq=288; prot_water_dist=2.79
+8     A:GLU97         3.04       water_id=3522; water_res_seq=381; prot_water_dist=3.46
+
+
+================================================================================
+HYDROGEN BONDS (12)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:ARG13         NH1          O12          3.28       Protein donor (NH1) -> Ligan  
+2     A:TRP38         NE1          O32          2.95       Protein donor (NE1) -> Ligan  
+3     A:GLN51         NE2          O31          3.00       Protein donor (NE2) -> Ligan  
+4     A:LEU52         N            O2           3.07       Protein donor (N) -> Ligand   
+5     A:SER65         N            O11          2.80       Protein donor (N) -> Ligand   
+6     A:SER65         N            O12          3.45       Protein donor (N) -> Ligand   
+7     A:SER65         OG           O11          3.47       Protein donor (OG) -> Ligand  
+8     A:SER65         OG           O12          2.73       Protein donor (OG) -> Ligand  
+9     A:GLN64         OE1          N1           2.72       Ligand donor (N1) -> Protein  
+10    A:GLN64         OE1          O12          3.47       Ligand donor (O12) -> Protei  
+11    A:LEU52         O            N2           2.98       Ligand donor (N2) -> Protein  
+12    A:LEU52         O            O2           3.49       Ligand donor (O2) -> Protein  
+
+
+================================================================================
+END OF REPORT
+================================================================================

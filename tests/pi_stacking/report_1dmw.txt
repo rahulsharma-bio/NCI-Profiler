@@ -1,0 +1,99 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1dmw.pdb
+Date: 2026-05-26 15:36:27
+Total Interactions: 25
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       1
+Cation-π                           1
+Water Bridges                     12
+Hydrogen Bonds                     4
+Hydrophobic                        1
+Metal Coordination                 6
+-----------------------------------
+TOTAL                             25
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:PHE254        offset-parallel  4.04       2.8°      
+
+
+================================================================================
+CATION-Π (1)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:PHE254        4.81       Ligand cation (guanidinium) -> Protein π (PHE)
+
+
+================================================================================
+WATER BRIDGES (12)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS285        3.10       water_id=2571; water_res_seq=459; prot_water_dist=3.40
+2     A:HIS290        2.92       water_id=2571; water_res_seq=459; prot_water_dist=3.03
+3     A:HIS264        2.84       water_id=2630; water_res_seq=518; prot_water_dist=2.97
+4     A:HIS264        3.15       water_id=2630; water_res_seq=518; prot_water_dist=2.97
+5     A:GLU286        2.98       water_id=2630; water_res_seq=518; prot_water_dist=2.64
+6     A:HIS290        2.88       water_id=2640; water_res_seq=528; prot_water_dist=3.28
+7     A:TYR325        2.58       water_id=2640; water_res_seq=528; prot_water_dist=2.68
+8     A:GLU330        2.55       water_id=2640; water_res_seq=528; prot_water_dist=2.63
+9     A:HIS285        3.33       water_id=2677; water_res_seq=567; prot_water_dist=3.27
+10    A:GLU330        3.22       water_id=2677; water_res_seq=567; prot_water_dist=3.03
+11    A:SER251        3.27       water_id=2689; water_res_seq=580; prot_water_dist=3.36
+12    A:SER251        3.19       water_id=2689; water_res_seq=580; prot_water_dist=3.20
+
+
+================================================================================
+HYDROGEN BONDS (4)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:LEU249        N            N1           3.25       Protein donor (N) -> Ligand   
+2     A:GLY247        O            N2           2.77       Ligand donor (N2) -> Protein  
+3     A:LEU249        O            N8           2.76       Ligand donor (N8) -> Protein  
+4     A:ALA322        O            O10          2.79       Ligand donor (O10) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (1)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:TRP326        CE3          C11          4.43      
+
+
+================================================================================
+METAL COORDINATION (6)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS285        2.20       metal=FE; metal_id=A:FE425; metal_atom_name=FE    
+2     A:HIS290        2.08       metal=FE; metal_id=A:FE425; metal_atom_name=FE    
+3     A:GLU330        2.00       metal=FE; metal_id=A:FE425; metal_atom_name=FE    
+4     HOH459          2.32       metal=FE; metal_id=A:FE425; metal_atom_name=FE    
+5     HOH528          2.56       metal=FE; metal_id=A:FE425; metal_atom_name=FE    
+6     HOH567          2.22       metal=FE; metal_id=A:FE425; metal_atom_name=FE    
+
+
+================================================================================
+END OF REPORT
+================================================================================

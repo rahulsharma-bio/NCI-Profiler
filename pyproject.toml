@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncip"
+version = "1.0.0"
+description = "NCI-Profiler — Non-Covalent Interaction Analysis"
+readme = "README.md"
+license = {text = "AGPL-3.0-or-later"}
+requires-python = ">=3.8"
+authors = [{name = "Rahul"}]
+keywords = ["protein", "ligand", "interaction", "pdb", "structural-biology", "drug-design"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.scripts]
+ncip = "ncip.cli:main"
+
+# [project.urls]
+# Homepage = ""  # GitHub URL will be added when available
+
+[tool.setuptools.packages.find]
+include = ["ncip*"]

@@ -1,0 +1,115 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1t64.pdb
+Date: 2026-05-26 15:36:26
+Total Interactions: 59
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       1
+Hydrogen Bonds                    12
+Hydrophobic                        5
+Metal Coordination                41
+-----------------------------------
+TOTAL                             59
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TYR100        edge-parallel    4.64       13.9°     
+
+
+================================================================================
+HYDROGEN BONDS (12)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:TYR100        OH           N2           3.32       Protein donor (OH) -> Ligand  
+2     A:HIS142        NE2          O1           2.77       Protein donor (NE2) -> Ligan  
+3     A:HIS142        NE2          N1           3.47       Protein donor (NE2) -> Ligan  
+4     A:HIS143        NE2          O1           3.11       Protein donor (NE2) -> Ligan  
+5     A:HIS143        NE2          N1           2.70       Protein donor (NE2) -> Ligan  
+6     A:HIS180        ND1          O1           3.12       Protein donor (ND1) -> Ligan  
+7     A:HIS180        ND1          O2           2.97       Protein donor (ND1) -> Ligan  
+8     A:HIS180        ND1          N1           3.38       Protein donor (ND1) -> Ligan  
+9     A:TYR306        OH           O2           2.52       Protein donor (OH) -> Ligand  
+10    A:ASP178        OD1          O1           3.28       Ligand donor (O1) -> Protein  
+11    A:ASP178        OD2          O1           2.74       Ligand donor (O1) -> Protein  
+12    A:ASP267        OD2          O2           2.92       Ligand donor (O2) -> Protein  
+
+
+================================================================================
+HYDROPHOBIC (5)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:PHE152        CD1          C11          3.95      
+2     A:PHE152        CE1          C9           4.31      
+3     A:PHE208        CB           C14          4.09      
+4     A:PHE208        CD1          C12          4.16      
+5     A:MET274        SD           C9           4.23      
+
+
+================================================================================
+METAL COORDINATION (41)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP178        1.97       metal=ZN; metal_id=A:ZN388; metal_atom_name=ZN    
+2     A:HIS180        2.15       metal=ZN; metal_id=A:ZN388; metal_atom_name=ZN    
+3     A:ASP267        1.94       metal=ZN; metal_id=A:ZN388; metal_atom_name=ZN    
+4     HOH734          2.46       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+5     HOH735          2.41       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+6     HOH736          2.47       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+7     HOH737          2.37       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+8     HOH738          2.42       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+9     HOH739          2.41       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+10    HOH741          2.55       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+11    HOH1040         2.36       metal=CA; metal_id=A:CA389; metal_atom_name=CA    
+12    A:ALA68         2.51       metal=CA; metal_id=A:CA390; metal_atom_name=CA    
+13    HOH843          2.45       metal=CA; metal_id=A:CA390; metal_atom_name=CA    
+14    HOH844          2.41       metal=CA; metal_id=A:CA390; metal_atom_name=CA    
+15    A:PHE189        2.31       metal=NA; metal_id=A:NA391; metal_atom_name=NA    
+16    A:THR192        2.41       metal=NA; metal_id=A:NA391; metal_atom_name=NA    
+17    A:VAL195        2.30       metal=NA; metal_id=A:NA391; metal_atom_name=NA    
+18    HOH426          2.32       metal=NA; metal_id=A:NA391; metal_atom_name=NA    
+19    HOH560          2.87       metal=NA; metal_id=A:NA391; metal_atom_name=NA    
+20    A:ASP176        2.74       metal=NA; metal_id=A:NA392; metal_atom_name=NA    
+21    A:ASP176        2.52       metal=NA; metal_id=A:NA392; metal_atom_name=NA    
+22    A:ASP178        2.34       metal=NA; metal_id=A:NA392; metal_atom_name=NA    
+23    A:HIS180        2.60       metal=NA; metal_id=A:NA392; metal_atom_name=NA    
+24    A:SER199        2.96       metal=NA; metal_id=A:NA392; metal_atom_name=NA    
+25    A:LEU200        2.37       metal=NA; metal_id=A:NA392; metal_atom_name=NA    
+26    B:ASP178        2.01       metal=ZN; metal_id=B:ZN1388; metal_atom_name=ZN   
+27    B:HIS180        2.10       metal=ZN; metal_id=B:ZN1388; metal_atom_name=ZN   
+28    B:ASP267        1.98       metal=ZN; metal_id=B:ZN1388; metal_atom_name=ZN   
+29    B:ALA68         2.46       metal=CA; metal_id=B:CA1390; metal_atom_name=CA   
+30    HOH676          2.33       metal=CA; metal_id=B:CA1390; metal_atom_name=CA   
+31    HOH771          2.43       metal=CA; metal_id=B:CA1390; metal_atom_name=CA   
+32    HOH783          2.37       metal=CA; metal_id=B:CA1390; metal_atom_name=CA   
+33    B:ASP176        2.74       metal=NA; metal_id=B:NA1391; metal_atom_name=NA   
+34    B:ASP176        2.56       metal=NA; metal_id=B:NA1391; metal_atom_name=NA   
+35    B:ASP178        2.43       metal=NA; metal_id=B:NA1391; metal_atom_name=NA   
+36    B:HIS180        2.64       metal=NA; metal_id=B:NA1391; metal_atom_name=NA   
+37    B:SER199        2.86       metal=NA; metal_id=B:NA1391; metal_atom_name=NA   
+38    B:LEU200        2.43       metal=NA; metal_id=B:NA1391; metal_atom_name=NA   
+39    B:PHE189        2.24       metal=NA; metal_id=B:NA1392; metal_atom_name=NA   
+40    B:THR192        2.38       metal=NA; metal_id=B:NA1392; metal_atom_name=NA   
+41    B:VAL195        2.32       metal=NA; metal_id=B:NA1392; metal_atom_name=NA   
+
+
+================================================================================
+END OF REPORT
+================================================================================

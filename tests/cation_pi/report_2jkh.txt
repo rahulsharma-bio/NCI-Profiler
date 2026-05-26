@@ -1,0 +1,102 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 2jkh.pdb
+Date: 2026-05-26 15:36:17
+Total Interactions: 28
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Cation-π                           4
+π-Cation                           2
+Water Bridges                      6
+Hydrogen Bonds                     3
+Hydrophobic                        2
+Metal Coordination                11
+-----------------------------------
+TOTAL                             28
+
+
+================================================================================
+CATION-Π (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:TYR99         4.81       Ligand cation (quaternary_ammonium) -> Protein π (TYR)
+2     A:PHE174        4.63       Ligand cation (quaternary_ammonium) -> Protein π (PHE)
+3     A:TRP215        4.60       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+4     A:TRP215        4.60       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+
+
+================================================================================
+Π-CATION (2)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ARG143        5.62       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=moderate
+2     A:ARG143        5.62       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=moderate
+
+
+================================================================================
+WATER BRIDGES (6)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS57         3.25       water_id=2663; water_res_seq=2279; prot_water_dist=3.36
+2     A:HIS57         3.37       water_id=2663; water_res_seq=2279; prot_water_dist=3.36
+3     A:SER214        2.84       water_id=2663; water_res_seq=2279; prot_water_dist=2.71
+4     A:SER214        2.93       water_id=2663; water_res_seq=2279; prot_water_dist=2.71
+5     A:SER214        3.04       water_id=2663; water_res_seq=2279; prot_water_dist=2.71
+6     A:GLY218        2.69       water_id=2664; water_res_seq=2280; prot_water_dist=2.75
+
+
+================================================================================
+HYDROGEN BONDS (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLN192        N            O10          3.39       Protein donor (N) -> Ligand   
+2     A:SER195        OG           O10          3.28       Protein donor (OG) -> Ligand  
+3     A:GLY216        O            O13          3.48       Ligand donor (O13) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:ALA190        CB           C24          4.36      
+2     A:TRP215        CB           C21          4.14      
+
+
+================================================================================
+METAL COORDINATION (11)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP70         2.27       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+2     A:ASN72         2.38       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+3     A:GLU80         2.32       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+4     HOH2077         2.58       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+5     HOH2087         2.66       metal=CA; metal_id=A:CA1245; metal_atom_name=CA   
+6     A:TYR185        2.27       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+7     A:ASP185        2.31       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+8     A:ARG222        2.28       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+9     A:LYS224        2.28       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+10    HOH2255         2.35       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+11    HOH2289         2.91       metal=NA; metal_id=A:NA1246; metal_atom_name=NA   
+
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,66 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1a42.pdb
+Date: 2026-05-26 15:36:25
+Total Interactions: 19
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Hydrogen Bonds                    10
+Hydrophobic                        5
+Metal Coordination                 4
+-----------------------------------
+TOTAL                             19
+
+
+================================================================================
+HYDROGEN BONDS (10)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLN92         NE2          O3B          2.99       Protein donor (NE2) -> Ligan  
+2     A:HIS94         NE2          O2A          3.49       Protein donor (NE2) -> Ligan  
+3     A:HIS94         NE2          N21          3.32       Protein donor (NE2) -> Ligan  
+4     A:HIS96         NE2          N21          3.43       Protein donor (NE2) -> Ligan  
+5     A:HIS119        ND1          O2A          3.37       Protein donor (ND1) -> Ligan  
+6     A:HIS119        ND1          N21          3.37       Protein donor (ND1) -> Ligan  
+7     A:THR199        N            O1A          2.88       Protein donor (N) -> Ligand   
+8     A:THR199        OG1          O1A          3.42       Protein donor (OG1) -> Ligan  
+9     A:THR199        OG1          N21          2.72       Protein donor (OG1) -> Ligan  
+10    A:THR200        OG1          N16          3.03       Protein donor (OG1) -> Ligan  
+
+
+================================================================================
+HYDROPHOBIC (5)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:TRP5          CZ2          C18          3.87      
+2     A:HIS64         CB           C18          4.06      
+3     A:VAL135        CB           C15          4.23      
+4     A:LEU198        CB           C4           4.41      
+5     A:LEU198        CD2          C5           4.15      
+
+
+================================================================================
+METAL COORDINATION (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS94         2.11       metal=ZN; metal_id=A:ZN262; metal_atom_name=ZN    
+2     A:HIS96         1.99       metal=ZN; metal_id=A:ZN262; metal_atom_name=ZN    
+3     A:HIS119        1.97       metal=ZN; metal_id=A:ZN262; metal_atom_name=ZN    
+4     A:CYS206        2.31       metal=HG; metal_id=A:HG362; metal_atom_name=HG    
+
+
+================================================================================
+END OF REPORT
+================================================================================

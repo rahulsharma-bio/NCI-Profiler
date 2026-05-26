@@ -1,0 +1,58 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 2b4l.pdb
+Date: 2026-05-26 15:36:20
+Total Interactions: 11
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       2
+Cation-π                           6
+Hydrogen Bonds                     3
+-----------------------------------
+TOTAL                             11
+
+
+================================================================================
+SALT BRIDGES (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:HIS230        ND1, NE2     C, O         4.66       Protein+ (imidazolium) - Ligand- (carboxylate)
+2     A:GLU181        OE1, OE2     N            5.39       Protein- (carboxylate) - Ligand+ (quaternary_ammonium)
+
+
+================================================================================
+CATION-Π (6)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:TRP72         4.59       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+2     A:TRP72         4.27       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+3     A:TRP178        4.23       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+4     A:TRP178        4.25       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+5     A:TRP225        4.52       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+6     A:TRP225        4.38       Ligand cation (quaternary_ammonium) -> Protein π (TRP)
+
+
+================================================================================
+HYDROGEN BONDS (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLY26         N            O            2.83       Protein donor (N) -> Ligand   
+2     A:GLY26         N            OXT          3.43       Protein donor (N) -> Ligand   
+3     A:ILE27         N            OXT          2.93       Protein donor (N) -> Ligand   
+
+
+================================================================================
+END OF REPORT
+================================================================================

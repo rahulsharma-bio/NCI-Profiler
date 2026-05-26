@@ -1,0 +1,119 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 4hhb.pdb
+Date: 2026-05-26 15:36:24
+Total Interactions: 45
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       1
+Cation-π                           4
+Water Bridges                      4
+Hydrogen Bonds                     5
+Hydrophobic                       27
+Metal Coordination                 4
+-----------------------------------
+TOTAL                             45
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:HIS87         T-shaped         4.91       81.3°     
+
+
+================================================================================
+CATION-Π (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:HIS87         4.32       Ligand cation (secondary_amine) -> Protein π (HIS)
+2     A:PHE43         5.77       Ligand cation (secondary_amine) -> Protein π (PHE)
+3     A:HIS58         4.67       Ligand cation (secondary_amine) -> Protein π (HIS)
+4     A:HIS87         4.42       Ligand cation (secondary_amine) -> Protein π (HIS)
+
+
+================================================================================
+WATER BRIDGES (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS58         3.16       water_id=4564; water_res_seq=144; prot_water_dist=3.05
+2     A:HIS58         2.98       water_id=4564; water_res_seq=144; prot_water_dist=3.05
+3     A:HIS58         2.78       water_id=4579; water_res_seq=159; prot_water_dist=3.00
+4     A:LYS61         2.69       water_id=4579; water_res_seq=159; prot_water_dist=2.82
+
+
+================================================================================
+HYDROGEN BONDS (5)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:HIS45         NE2          O2D          2.98       Protein donor (NE2) -> Ligan  
+2     A:HIS87         NE2          NA           3.31       Protein donor (NE2) -> Ligan  
+3     A:HIS87         NE2          NB           3.35       Protein donor (NE2) -> Ligan  
+4     A:HIS87         NE2          NC           3.46       Protein donor (NE2) -> Ligan  
+5     A:HIS87         NE2          ND           3.44       Protein donor (NE2) -> Ligan  
+
+
+================================================================================
+HYDROPHOBIC (27)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:MET32         SD           CBC          4.38      
+2     A:TYR42         CB           CAC          4.21      
+3     A:TYR42         CD2          CBC          4.07      
+4     A:PHE43         CD2          CMD          4.16      
+5     A:PHE43         CE1          CHD          3.97      
+6     A:PHE43         CE2          C2D          3.73      
+7     A:PHE46         CZ           CBD          4.23      
+8     A:VAL62         CG1          CMB          4.38      
+9     A:VAL62         CG2          CHB          3.92      
+10    A:ALA65         CB           CMB          4.04      
+11    A:LEU66         CD2          CMB          4.24      
+12    A:LEU83         CG           CMA          4.48      
+13    A:LEU83         CD1          C3A          4.07      
+14    A:LEU83         CD2          CHB          4.41      
+15    A:LEU86         CD2          CBA          3.50      
+16    A:LEU91         CG           C3D          4.15      
+17    A:LEU91         CD1          CHA          3.64      
+18    A:LEU91         CD2          CMD          4.35      
+19    A:VAL93         CB           CAC          4.32      
+20    A:VAL93         CG1          CBC          4.17      
+21    A:VAL93         CG2          CHD          3.80      
+22    A:PHE98         CG           CMC          4.31      
+23    A:PHE98         CD1          CHC          3.80      
+24    A:LEU101        CB           CMC          4.13      
+25    A:LEU101        CD2          CHC          3.42      
+26    A:VAL132        CG1          CBB          4.26      
+27    A:LEU136        CD1          CAB          3.58      
+
+
+================================================================================
+METAL COORDINATION (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS87         2.14       metal=FE; metal_id=A:FE142; metal_atom_name=FE    
+2     B:HIS92         2.22       metal=FE; metal_id=B:FE148; metal_atom_name=FE    
+3     C:HIS87         2.26       metal=FE; metal_id=C:FE142; metal_atom_name=FE    
+4     D:HIS92         1.98       metal=FE; metal_id=D:FE148; metal_atom_name=FE    
+
+
+================================================================================
+END OF REPORT
+================================================================================

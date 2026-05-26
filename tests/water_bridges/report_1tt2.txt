@@ -1,0 +1,110 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1tt2.pdb
+Date: 2026-05-26 15:36:30
+Total Interactions: 27
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       3
+π-π Stacking                       1
+π-Cation                           4
+Water Bridges                      8
+Hydrogen Bonds                     4
+Hydrophobic                        1
+Metal Coordination                 6
+-----------------------------------
+TOTAL                             27
+
+
+================================================================================
+SALT BRIDGES (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:ARG35         NE, CZ       P2, O4P      4.10       Protein+ (guanidinium) - Ligand- (phosphate)
+2     A:LYS84         NZ           P1, O1P      3.94       Protein+ (primary_amine) - Ligand- (phosphate)
+3     A:ARG87         NE, CZ       P2, O4P      4.43       Protein+ (guanidinium) - Ligand- (phosphate)
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TYR113        intermediate     4.70       41.2°     
+
+
+================================================================================
+Π-CATION (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ARG35         5.92       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=moderate
+2     A:ARG35         5.92       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=moderate
+3     A:LYS84         5.58       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+4     A:ARG87         5.40       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=good
+
+
+================================================================================
+WATER BRIDGES (8)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:TYR113        2.77       water_id=1097; water_res_seq=201; prot_water_dist=2.83
+2     A:LEU38         2.77       water_id=1100; water_res_seq=204; prot_water_dist=2.82
+3     A:TYR113        2.74       water_id=1100; water_res_seq=204; prot_water_dist=2.77
+4     A:ASN118        2.97       water_id=1102; water_res_seq=206; prot_water_dist=3.04
+5     A:ASP21         2.99       water_id=1113; water_res_seq=217; prot_water_dist=3.34
+6     A:ASP21         2.62       water_id=1113; water_res_seq=217; prot_water_dist=2.60
+7     A:GLU43         2.74       water_id=1115; water_res_seq=219; prot_water_dist=2.71
+8     A:TYR113        2.83       water_id=1145; water_res_seq=249; prot_water_dist=2.78
+
+
+================================================================================
+HYDROGEN BONDS (4)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:TYR85         OH           O2P          3.06       Protein donor (OH) -> Ligand  
+2     A:TYR85         OH           O3P          3.00       Protein donor (OH) -> Ligand  
+3     A:ARG87         NH2          O4'          2.89       Protein donor (NH2) -> Ligan  
+4     A:ASP40         OD1          O4P          3.25       Ligand donor (O4P) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (1)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:LEU89         CD2          C5           4.10      
+
+
+================================================================================
+METAL COORDINATION (6)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP21         2.48       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+2     A:ASP40         2.45       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+3     A:THR41         2.56       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+4     HOH216          2.69       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+5     HOH217          2.61       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+6     HOH218          2.35       metal=CA; metal_id=A:CA502; metal_atom_name=CA    
+
+
+================================================================================
+END OF REPORT
+================================================================================

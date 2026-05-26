@@ -1,0 +1,76 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 5yxc.pdb
+Date: 2026-05-26 15:36:26
+Total Interactions: 20
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       7
+Water Bridges                      3
+Hydrogen Bonds                     4
+Metal Coordination                 6
+-----------------------------------
+TOTAL                             20
+
+
+================================================================================
+SALT BRIDGES (7)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:HIS167        ND1, NE2     C1, O1       4.34       Protein+ (imidazolium) - Ligand- (carboxylate)
+2     A:HIS167        ND1, NE2     C6, O5       4.48       Protein+ (imidazolium) - Ligand- (carboxylate)
+3     A:HIS176        ND1, NE2     C5, O3       4.49       Protein+ (imidazolium) - Ligand- (carboxylate)
+4     A:HIS176        ND1, NE2     C6, O5       4.50       Protein+ (imidazolium) - Ligand- (carboxylate)
+5     A:HIS178        ND1, NE2     C1, O1       4.12       Protein+ (imidazolium) - Ligand- (carboxylate)
+6     A:HIS216        ND1, NE2     C5, O3       3.92       Protein+ (imidazolium) - Ligand- (carboxylate)
+7     A:HIS216        ND1, NE2     C6, O5       4.80       Protein+ (imidazolium) - Ligand- (carboxylate)
+
+
+================================================================================
+WATER BRIDGES (3)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:TYR97         3.09       water_id=5952; water_res_seq=418; prot_water_dist=3.50
+2     A:MET213        2.91       water_id=5993; water_res_seq=459; prot_water_dist=3.11
+3     A:TYR97         2.95       water_id=6073; water_res_seq=539; prot_water_dist=2.94
+
+
+================================================================================
+HYDROGEN BONDS (4)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:HIS176        NE2          O7           2.92       Protein donor (NE2) -> Ligan  
+2     A:HIS178        NE2          O7           2.95       Protein donor (NE2) -> Ligan  
+3     A:TYR200        OH           O3           3.43       Protein donor (OH) -> Ligand  
+4     A:TYR200        OH           O4           2.65       Protein donor (OH) -> Ligand  
+
+
+================================================================================
+METAL COORDINATION (6)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS167        2.06       metal=ZN; metal_id=A:ZN301; metal_atom_name=ZN    
+2     A:HIS176        2.19       metal=ZN; metal_id=A:ZN301; metal_atom_name=ZN    
+3     A:HIS178        2.10       metal=ZN; metal_id=A:ZN301; metal_atom_name=ZN    
+4     B:HIS167        2.03       metal=ZN; metal_id=B:ZN301; metal_atom_name=ZN    
+5     B:HIS176        2.22       metal=ZN; metal_id=B:ZN301; metal_atom_name=ZN    
+6     B:HIS178        2.10       metal=ZN; metal_id=B:ZN301; metal_atom_name=ZN    
+
+
+================================================================================
+END OF REPORT
+================================================================================

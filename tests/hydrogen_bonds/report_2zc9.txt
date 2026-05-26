@@ -1,0 +1,83 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 2zc9.pdb
+Date: 2026-05-26 15:36:22
+Total Interactions: 27
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Water Bridges                      1
+Hydrogen Bonds                     4
+Hydrophobic                       11
+Metal Coordination                11
+-----------------------------------
+TOTAL                             27
+
+
+================================================================================
+WATER BRIDGES (1)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     H:GLY219        2.99       water_id=2643; water_res_seq=2258; prot_water_dist=2.98
+
+
+================================================================================
+HYDROGEN BONDS (4)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     H:GLY216        N            O1           2.98       Protein donor (N) -> Ligand   
+2     H:GLY216        O            N1           2.89       Ligand donor (N1) -> Protein  
+3     H:GLY216        O            O1           3.04       Ligand donor (O1) -> Protein  
+4     H:SER214        O            N3           2.83       Ligand donor (N3) -> Protein  
+
+
+================================================================================
+HYDROPHOBIC (11)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     H:HIS57         CG           C6           3.98      
+2     H:TYR60         CD2          C5           4.21      
+3     H:TRP60         CZ2          C5           4.24      
+4     H:TRP60         CZ3          C6           4.07      
+5     H:LEU99         CB           C20          4.16      
+6     H:LEU99         CD2          C5           4.05      
+7     H:ILE174        CD1          C21          3.85      
+8     H:ALA190        CB           C12          3.80      
+9     H:VAL213        CG1          C11          3.56      
+10    H:TRP215        CB           C21          3.65      
+11    H:TRP215        CE3          C1           4.46      
+
+
+================================================================================
+METAL COORDINATION (11)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     H:ARG221        2.29       metal=NA; metal_id=H:NA1601; metal_atom_name=NA   
+2     H:LYS224        2.28       metal=NA; metal_id=H:NA1601; metal_atom_name=NA   
+3     HOH2046         2.83       metal=NA; metal_id=H:NA1601; metal_atom_name=NA   
+4     HOH2063         2.50       metal=NA; metal_id=H:NA1601; metal_atom_name=NA   
+5     HOH2078         2.47       metal=NA; metal_id=H:NA1601; metal_atom_name=NA   
+6     HOH2117         2.25       metal=NA; metal_id=H:NA1601; metal_atom_name=NA   
+7     H:LYS169        2.29       metal=NA; metal_id=H:NA1602; metal_atom_name=NA   
+8     H:THR172        2.40       metal=NA; metal_id=H:NA1602; metal_atom_name=NA   
+9     HOH2033         2.51       metal=NA; metal_id=H:NA1602; metal_atom_name=NA   
+10    HOH2077         2.52       metal=NA; metal_id=H:NA1602; metal_atom_name=NA   
+11    HOH2190         2.86       metal=NA; metal_id=H:NA1602; metal_atom_name=NA   
+
+
+================================================================================
+END OF REPORT
+================================================================================

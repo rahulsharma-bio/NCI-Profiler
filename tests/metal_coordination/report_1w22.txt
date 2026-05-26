@@ -1,0 +1,100 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1w22.pdb
+Date: 2026-05-26 15:36:26
+Total Interactions: 44
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       3
+Hydrogen Bonds                     9
+Hydrophobic                        2
+Metal Coordination                30
+-----------------------------------
+TOTAL                             44
+
+
+================================================================================
+Π-Π STACKING (3)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:PHE152        intermediate     4.62       32.2°     
+2     A:HIS180        offset-parallel  4.48       25.4°     
+3     B:TYR306        offset-parallel  4.64       23.4°     
+
+
+================================================================================
+HYDROGEN BONDS (9)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:HIS142        NE2          N24          3.46       Protein donor (NE2) -> Ligan  
+2     A:HIS142        NE2          O26          2.66       Protein donor (NE2) -> Ligan  
+3     A:HIS143        NE2          N24          2.65       Protein donor (NE2) -> Ligan  
+4     A:HIS143        NE2          O26          3.17       Protein donor (NE2) -> Ligan  
+5     A:HIS180        ND1          O25          3.28       Protein donor (ND1) -> Ligan  
+6     A:HIS180        ND1          N24          3.23       Protein donor (ND1) -> Ligan  
+7     A:HIS180        ND1          O26          3.34       Protein donor (ND1) -> Ligan  
+8     A:ASP267        OD2          O25          2.93       Ligand donor (O25) -> Protei  
+9     A:ASP178        OD1          O26          3.35       Ligand donor (O26) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:MET274        CE           C2           3.88      
+2     B:PRO273        CB           C2           3.53      
+
+
+================================================================================
+METAL COORDINATION (30)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP178        2.05       metal=ZN; metal_id=A:ZN1375; metal_atom_name=ZN   
+2     A:HIS180        2.01       metal=ZN; metal_id=A:ZN1375; metal_atom_name=ZN   
+3     A:ASP267        2.00       metal=ZN; metal_id=A:ZN1375; metal_atom_name=ZN   
+4     A:ASP176        3.05       metal=K; metal_id=A:K1376; metal_atom_name=K      
+5     A:ASP176        3.01       metal=K; metal_id=A:K1376; metal_atom_name=K      
+6     A:ASP178        2.92       metal=K; metal_id=A:K1376; metal_atom_name=K      
+7     A:HIS180        2.81       metal=K; metal_id=A:K1376; metal_atom_name=K      
+8     A:SER199        3.12       metal=K; metal_id=A:K1376; metal_atom_name=K      
+9     A:LEU200        2.89       metal=K; metal_id=A:K1376; metal_atom_name=K      
+10    A:PHE189        2.89       metal=K; metal_id=A:K1377; metal_atom_name=K      
+11    A:THR192        3.05       metal=K; metal_id=A:K1377; metal_atom_name=K      
+12    A:VAL195        2.76       metal=K; metal_id=A:K1377; metal_atom_name=K      
+13    A:TYR225        3.09       metal=K; metal_id=A:K1377; metal_atom_name=K      
+14    HOH2074         3.05       metal=K; metal_id=A:K1377; metal_atom_name=K      
+15    HOH2093         3.05       metal=K; metal_id=A:K1377; metal_atom_name=K      
+16    B:ASP178        2.03       metal=ZN; metal_id=B:ZN1375; metal_atom_name=ZN   
+17    B:HIS180        2.04       metal=ZN; metal_id=B:ZN1375; metal_atom_name=ZN   
+18    B:ASP267        2.04       metal=ZN; metal_id=B:ZN1375; metal_atom_name=ZN   
+19    B:ASP176        2.92       metal=K; metal_id=B:K1376; metal_atom_name=K      
+20    B:ASP176        3.04       metal=K; metal_id=B:K1376; metal_atom_name=K      
+21    B:ASP178        2.84       metal=K; metal_id=B:K1376; metal_atom_name=K      
+22    B:HIS180        2.94       metal=K; metal_id=B:K1376; metal_atom_name=K      
+23    B:SER199        3.02       metal=K; metal_id=B:K1376; metal_atom_name=K      
+24    B:LEU200        2.95       metal=K; metal_id=B:K1376; metal_atom_name=K      
+25    B:PHE189        2.82       metal=K; metal_id=B:K1377; metal_atom_name=K      
+26    B:THR192        3.19       metal=K; metal_id=B:K1377; metal_atom_name=K      
+27    B:VAL195        2.88       metal=K; metal_id=B:K1377; metal_atom_name=K      
+28    B:TYR225        3.22       metal=K; metal_id=B:K1377; metal_atom_name=K      
+29    HOH2060         3.08       metal=K; metal_id=B:K1377; metal_atom_name=K      
+30    HOH2063         3.23       metal=K; metal_id=B:K1377; metal_atom_name=K      
+
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,109 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 3thh.pdb
+Date: 2026-05-26 15:36:26
+Total Interactions: 44
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       2
+Cation-π                           1
+Water Bridges                      8
+Hydrogen Bonds                    15
+Metal Coordination                18
+-----------------------------------
+TOTAL                             44
+
+
+================================================================================
+SALT BRIDGES (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:ASP183        OD1, OD2     N            3.27       Protein- (carboxylate) - Ligand+ (primary_amine)
+2     A:GLU186        OE1, OE2     N            4.03       Protein- (carboxylate) - Ligand+ (primary_amine)
+
+
+================================================================================
+CATION-Π (1)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:HIS126        5.47       Ligand cation (primary_amine) -> Protein π (HIS)
+
+
+================================================================================
+WATER BRIDGES (8)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASN139        2.76       water_id=4823; water_res_seq=335; prot_water_dist=2.61
+2     A:GLY142        2.79       water_id=4824; water_res_seq=336; prot_water_dist=2.79
+3     A:GLY142        3.06       water_id=4824; water_res_seq=336; prot_water_dist=2.79
+4     A:THR135        2.62       water_id=4830; water_res_seq=342; prot_water_dist=2.56
+5     A:ASN139        2.84       water_id=4830; water_res_seq=342; prot_water_dist=3.00
+6     A:THR246        3.02       water_id=4842; water_res_seq=354; prot_water_dist=3.33
+7     A:THR246        2.60       water_id=4842; water_res_seq=354; prot_water_dist=2.50
+8     A:ASP181        2.80       water_id=4892; water_res_seq=406; prot_water_dist=2.91
+
+
+================================================================================
+HYDROGEN BONDS (15)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:HIS101        ND1          O2           3.49       Protein donor (ND1) -> Ligan  
+2     A:HIS126        ND1          O1           3.08       Protein donor (ND1) -> Ligan  
+3     A:ASN130        ND2          OT           3.09       Protein donor (ND2) -> Ligan  
+4     A:SER137        OG           O            2.53       Protein donor (OG) -> Ligand  
+5     A:ASP128        OD2          O2           3.31       Ligand donor (O2) -> Protein  
+6     A:HIS141        O            O2           2.90       Ligand donor (O2) -> Protein  
+7     A:ASP232        OD2          O2           3.18       Ligand donor (O2) -> Protein  
+8     A:GLU277        OE2          O2           3.50       Ligand donor (O2) -> Protein  
+9     A:ASP124        OD1          O1           3.25       Ligand donor (O1) -> Protein  
+10    A:ASP124        OD2          O1           3.12       Ligand donor (O1) -> Protein  
+11    A:ASP128        OD1          O1           2.70       Ligand donor (O1) -> Protein  
+12    A:ASP128        OD2          O1           3.00       Ligand donor (O1) -> Protein  
+13    A:ASP232        OD2          O1           2.82       Ligand donor (O1) -> Protein  
+14    A:ASP232        OD2          O3           3.11       Ligand donor (O3) -> Protein  
+15    A:ASP234        OD1          O3           3.06       Ligand donor (O3) -> Protein  
+
+
+================================================================================
+METAL COORDINATION (18)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS101        2.08       metal=CO; metal_id=A:CO400; metal_atom_name=CO    
+2     A:ASP124        1.89       metal=CO; metal_id=A:CO400; metal_atom_name=CO    
+3     A:ASP128        2.10       metal=CO; metal_id=A:CO400; metal_atom_name=CO    
+4     A:ASP232        2.14       metal=CO; metal_id=A:CO400; metal_atom_name=CO    
+5     A:ASP124        1.95       metal=CO; metal_id=A:CO401; metal_atom_name=CO    
+6     A:HIS126        2.16       metal=CO; metal_id=A:CO401; metal_atom_name=CO    
+7     A:ASP232        2.34       metal=CO; metal_id=A:CO401; metal_atom_name=CO    
+8     A:ASP234        2.20       metal=CO; metal_id=A:CO401; metal_atom_name=CO    
+9     A:ASP234        2.31       metal=CO; metal_id=A:CO401; metal_atom_name=CO    
+10    B:HIS101        2.27       metal=CO; metal_id=B:CO400; metal_atom_name=CO    
+11    B:ASP124        2.02       metal=CO; metal_id=B:CO400; metal_atom_name=CO    
+12    B:ASP128        2.06       metal=CO; metal_id=B:CO400; metal_atom_name=CO    
+13    B:ASP232        2.17       metal=CO; metal_id=B:CO400; metal_atom_name=CO    
+14    B:ASP124        2.18       metal=CO; metal_id=B:CO401; metal_atom_name=CO    
+15    B:HIS126        2.20       metal=CO; metal_id=B:CO401; metal_atom_name=CO    
+16    B:ASP232        2.27       metal=CO; metal_id=B:CO401; metal_atom_name=CO    
+17    B:ASP234        1.99       metal=CO; metal_id=B:CO401; metal_atom_name=CO    
+18    B:ASP234        2.36       metal=CO; metal_id=B:CO401; metal_atom_name=CO    
+
+
+================================================================================
+END OF REPORT
+================================================================================

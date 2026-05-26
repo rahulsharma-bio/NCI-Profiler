@@ -1,0 +1,103 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1o86.pdb
+Date: 2026-05-26 15:36:25
+Total Interactions: 29
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       7
+π-π Stacking                       1
+Water Bridges                      1
+Hydrogen Bonds                    12
+Hydrophobic                        5
+Metal Coordination                 3
+-----------------------------------
+TOTAL                             29
+
+
+================================================================================
+SALT BRIDGES (7)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:HIS353        ND1, NE2     C9, O4       5.39       Protein+ (imidazolium) - Ligand- (carboxylate)
+2     A:HIS383        ND1, NE2     C3, O2       4.44       Protein+ (imidazolium) - Ligand- (carboxylate)
+3     A:HIS387        ND1, NE2     C3, O2       4.35       Protein+ (imidazolium) - Ligand- (carboxylate)
+4     A:LYS511        NZ           C9, O4       3.36       Protein+ (primary_amine) - Ligand- (carboxylate)
+5     A:HIS513        ND1, NE2     C9, O4       4.52       Protein+ (imidazolium) - Ligand- (carboxylate)
+6     A:GLU162        OE1, OE2     N3           4.17       Protein- (carboxylate) - Ligand+ (primary_amine)
+7     A:ASP377        OD1, OD2     N3           5.04       Protein- (carboxylate) - Ligand+ (primary_amine)
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TYR523        offset-parallel  4.19       7.3°      
+
+
+================================================================================
+WATER BRIDGES (1)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ALA356        2.84       water_id=5267; water_res_seq=2570; prot_water_dist=2.85
+
+
+================================================================================
+HYDROGEN BONDS (12)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLN281        NE2          O4           3.22       Protein donor (NE2) -> Ligan  
+2     A:GLN281        NE2          O5           3.30       Protein donor (NE2) -> Ligan  
+3     A:HIS353        NE2          N1           3.24       Protein donor (NE2) -> Ligan  
+4     A:HIS353        NE2          O1           2.76       Protein donor (NE2) -> Ligan  
+5     A:HIS513        NE2          O1           3.11       Protein donor (NE2) -> Ligan  
+6     A:TYR520        OH           O4           2.56       Protein donor (OH) -> Ligand  
+7     A:TYR523        OH           O3           2.77       Protein donor (OH) -> Ligand  
+8     A:GLU384        OE1          O2           3.25       Ligand donor (O2) -> Protein  
+9     A:GLU384        OE2          O2           2.70       Ligand donor (O2) -> Protein  
+10    A:GLU411        OE1          O3           3.14       Ligand donor (O3) -> Protein  
+11    A:ALA354        O            N1           2.92       Ligand donor (N1) -> Protein  
+12    A:GLU384        OE2          N1           3.44       Ligand donor (N1) -> Protein  
+
+
+================================================================================
+HYDROPHOBIC (5)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:VAL380        CG1          C12          3.99      
+2     A:PHE512        CE2          C17          3.73      
+3     A:VAL518        CB           C21          4.48      
+4     A:VAL518        CG1          C15          4.09      
+5     A:VAL518        CG2          C20          3.97      
+
+
+================================================================================
+METAL COORDINATION (3)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS383        2.04       metal=ZN; metal_id=A:ZN701; metal_atom_name=ZN    
+2     A:HIS387        2.07       metal=ZN; metal_id=A:ZN701; metal_atom_name=ZN    
+3     A:GLU411        2.00       metal=ZN; metal_id=A:ZN701; metal_atom_name=ZN    
+
+
+================================================================================
+END OF REPORT
+================================================================================

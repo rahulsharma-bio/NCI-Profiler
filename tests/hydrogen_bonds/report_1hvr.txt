@@ -1,0 +1,78 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1hvr.pdb
+Date: 2026-05-26 15:36:23
+Total Interactions: 31
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-Cation                           2
+Hydrogen Bonds                    12
+Hydrophobic                       17
+-----------------------------------
+TOTAL                             31
+
+
+================================================================================
+Π-CATION (2)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ARG8          5.80       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=moderate
+2     A:ARG8          5.80       type=Ligand π -> Protein cation (ARG); cation_type=ARG; geometry_quality=moderate
+
+
+================================================================================
+HYDROGEN BONDS (12)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:ALA28         N            O5           3.41       Protein donor (N) -> Ligand   
+2     A:ILE50         N            O1           3.17       Protein donor (N) -> Ligand   
+3     B:ALA28         N            O4           3.41       Protein donor (N) -> Ligand   
+4     B:ILE50         N            O1           3.24       Protein donor (N) -> Ligand   
+5     A:ASP25         OD1          O4           3.33       Ligand donor (O4) -> Protein  
+6     A:ASP25         OD2          O4           3.01       Ligand donor (O4) -> Protein  
+7     B:ASP25         OD1          O4           2.91       Ligand donor (O4) -> Protein  
+8     B:ASP25         OD2          O4           3.46       Ligand donor (O4) -> Protein  
+9     A:ASP25         OD1          O5           2.86       Ligand donor (O5) -> Protein  
+10    A:ASP25         OD2          O5           3.48       Ligand donor (O5) -> Protein  
+11    B:ASP25         OD1          O5           3.13       Ligand donor (O5) -> Protein  
+12    B:ASP25         OD2          O5           3.03       Ligand donor (O5) -> Protein  
+
+
+================================================================================
+HYDROPHOBIC (17)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:LEU23         CD2          C37          4.29      
+2     A:VAL32         CG1          C78          3.80      
+3     A:ILE47         CB           C74          4.50      
+4     A:ILE47         CD1          C77          3.78      
+5     A:PRO81         CB           C34          4.46      
+6     A:VAL82         CG1          C36          3.95      
+7     A:ILE84         CG2          C78          4.31      
+8     A:ILE84         CD1          C31          3.62      
+9     B:LEU23         CD2          C63          4.28      
+10    B:VAL32         CG2          C24          3.40      
+11    B:ILE47         CB           C26          4.02      
+12    B:ILE47         CD1          C24          4.07      
+13    B:LEU76         CD2          C25          4.06      
+14    B:PRO81         CG           C66          3.52      
+15    B:VAL82         CG2          C65          4.37      
+16    B:ILE84         CG2          C22          4.23      
+17    B:ILE84         CD1          C21          4.03      
+
+
+================================================================================
+END OF REPORT
+================================================================================

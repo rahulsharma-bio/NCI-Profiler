@@ -1,0 +1,231 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1sn5.pdb
+Date: 2026-05-26 15:36:31
+Total Interactions: 148
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       3
+π-Cation                         124
+Halogen Bonds                      1
+Water Bridges                      2
+XWH Bridges                        5
+Hydrogen Bonds                     7
+Hydrophobic                        6
+-----------------------------------
+TOTAL                            148
+
+
+================================================================================
+SALT BRIDGES (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:LYS15         NZ           C, OXT       4.65       Protein+ (primary_amine) - Ligand- (carboxylate)
+2     C:LYS15         NZ           C, OXT       4.66       Protein+ (primary_amine) - Ligand- (carboxylate)
+3     C:GLU54         OE1, OE2     N            5.05       Protein- (carboxylate) - Ligand+ (secondary_amine)
+
+
+================================================================================
+Π-CATION (124)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:LYS15         5.50       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+2     A:LYS15         5.91       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+3     A:LYS15         5.60       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+4     A:LYS15         4.95       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+5     A:LYS15         5.89       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+6     A:LYS15         5.22       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+7     A:LYS15         5.91       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+8     A:LYS15         5.55       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+9     A:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+10    A:LYS15         5.49       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+11    A:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+12    A:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+13    A:LYS15         5.89       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+14    A:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+15    A:LYS15         5.50       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+16    A:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+17    A:LYS15         5.54       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+18    A:LYS15         5.67       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+19    A:LYS15         5.40       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+20    A:LYS15         5.87       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+21    A:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+22    A:LYS15         5.90       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+23    A:LYS15         5.45       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+24    A:LYS15         5.27       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+25    A:LYS15         5.73       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+26    A:LYS15         5.31       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+27    A:LYS15         5.20       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+28    A:LYS15         5.89       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+29    A:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+30    A:LYS15         5.71       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+31    A:LYS15         5.22       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+32    A:LYS15         5.20       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+33    A:LYS15         5.55       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+34    A:LYS15         5.20       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+35    A:LYS15         5.41       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+36    A:LYS15         5.50       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+37    A:LYS15         5.71       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+38    A:LYS15         5.67       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+39    A:LYS15         5.07       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+40    A:LYS15         5.82       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+41    A:LYS15         5.98       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+42    A:LYS15         5.76       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+43    A:LYS15         4.80       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+44    A:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+45    A:LYS15         5.24       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+46    A:LYS15         5.16       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+47    A:LYS15         5.40       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+48    A:LYS15         4.80       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+49    A:LYS15         5.98       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+50    A:LYS15         5.82       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+51    A:LYS15         4.80       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+52    A:LYS15         5.71       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+53    A:LYS15         5.65       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+54    A:LYS15         5.49       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+55    A:LYS15         5.07       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+56    A:LYS15         4.80       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+57    A:LYS15         5.24       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+58    A:LYS15         5.71       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+59    A:LYS15         5.98       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+60    A:LYS15         5.76       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+61    A:LYS15         5.55       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+62    A:LYS15         5.55       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+63    A:LYS15         5.98       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+64    A:LYS15         5.73       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+65    A:LYS15         5.27       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+66    A:LYS15         5.50       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+67    A:LYS15         5.94       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+68    A:LYS15         5.54       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+69    A:LYS15         4.96       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+70    A:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+71    A:LYS15         5.60       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+72    A:LYS15         5.31       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+73    A:LYS15         5.89       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+74    A:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+75    A:LYS15         5.20       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+76    A:LYS15         5.86       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+77    A:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+78    A:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+79    C:LYS15         5.31       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+80    C:LYS15         4.84       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+81    C:LYS15         5.82       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+82    C:LYS15         5.77       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+83    C:LYS15         5.66       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+84    C:LYS15         5.49       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+85    C:LYS15         5.29       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+86    C:LYS15         5.49       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+87    C:LYS15         5.76       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+88    C:LYS15         5.27       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+89    C:LYS15         5.30       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+90    C:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+91    C:LYS15         5.84       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+92    C:LYS15         5.37       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+93    C:LYS15         5.68       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+94    C:LYS15         5.49       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+95    C:LYS15         5.33       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+96    C:LYS15         5.50       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+97    C:LYS15         5.81       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+98    C:LYS15         5.45       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+99    C:LYS15         5.76       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+100   C:LYS15         5.38       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+101   C:LYS15         5.31       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+102   C:LYS15         5.84       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+103   C:LYS15         5.80       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+104   C:LYS15         5.75       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+105   C:LYS15         5.78       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+106   C:LYS15         5.36       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+107   C:LYS15         5.75       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+108   C:LYS15         5.60       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+109   C:LYS15         5.29       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+110   C:LYS15         5.80       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+111   C:LYS15         5.78       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+112   C:LYS15         5.66       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+113   C:LYS15         5.81       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+114   C:LYS15         5.50       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+115   C:LYS15         5.30       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+116   C:LYS15         4.92       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+117   C:LYS15         5.26       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+118   C:LYS15         5.81       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+119   C:LYS15         5.28       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+120   C:LYS15         4.84       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+121   C:LYS15         5.45       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+122   C:LYS15         5.77       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=moderate
+123   C:LYS15         4.96       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+124   C:LYS15         5.49       type=Ligand π -> Protein cation (LYS); cation_type=LYS; geometry_quality=good
+
+
+================================================================================
+HALOGEN BONDS (1)
+================================================================================
+
+No.   Residue         Halogen      Dist(Å)    Angle(°)   Type                
+------------------------------------------------------------------------
+1     C:LEU109        I2           3.04       -          I...O               
+
+
+================================================================================
+WATER BRIDGES (2)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:THR117        3.27       water_id=3666; water_res_seq=714; prot_water_dist=3.28
+2     C:THR119        2.77       water_id=3877; water_res_seq=613; prot_water_dist=3.07
+
+
+================================================================================
+XWH BRIDGES (5)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ALA108        3.16       halogen=I; water_id=3666; water_res_seq=714       
+2     A:LEU110        3.33       halogen=I; water_id=3666; water_res_seq=714       
+3     A:THR117        3.02       halogen=I; water_id=3666; water_res_seq=714       
+4     A:THR119        3.31       halogen=I; water_id=3666; water_res_seq=714       
+5     A:THR119        2.86       halogen=I; water_id=3666; water_res_seq=714       
+
+
+================================================================================
+HYDROGEN BONDS (7)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:LEU109        N            O1           3.31       Protein donor (N) -> Ligand   
+2     A:LEU110        N            O1           3.25       Protein donor (N) -> Ligand   
+3     C:GLU54         OE2          N            3.38       Ligand donor (N) -> Protein   
+4     A:LEU109        O            O1           3.14       Ligand donor (O1) -> Protein  
+5     C:GLU54         OE2          OXT          2.90       Ligand donor (OXT) -> Protei  
+6     A:GLU54         OE2          O            2.99       Ligand donor (O) -> Protein   
+7     C:GLU54         OE2          O            2.77       Ligand donor (O) -> Protein   
+
+
+================================================================================
+HYDROPHOBIC (6)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:LEU17         CG           C10          3.42      
+2     A:LEU17         CD1          C6           3.71      
+3     A:ALA108        CB           C10          3.45      
+4     C:LEU17         CG           C10          3.60      
+5     C:LEU17         CD1          C6           3.74      
+6     C:ALA108        CB           C10          3.52      
+
+
+================================================================================
+END OF REPORT
+================================================================================

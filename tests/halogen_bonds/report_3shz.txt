@@ -1,0 +1,83 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 3shz.pdb
+Date: 2026-05-26 15:36:21
+Total Interactions: 27
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       1
+Hydrogen Bonds                     3
+Hydrophobic                       11
+Metal Coordination                12
+-----------------------------------
+TOTAL                             27
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:PHE820        π-stacked        3.89       13.1°     
+
+
+================================================================================
+HYDROGEN BONDS (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLN817        NE2          OAD          3.01       Protein donor (NE2) -> Ligan  
+2     A:GLN817        OE1          NAS          2.93       Ligand donor (NAS) -> Protei  
+3     A:GLN817        OE1          OAT          2.83       Ligand donor (OAT) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (11)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:TYR612        CE2          CAB          4.25      
+2     A:LEU765        CD2          CAL          4.03      
+3     A:ALA779        CB           CAA          4.26      
+4     A:VAL782        CB           CAK          4.16      
+5     A:VAL782        CG1          CAA          4.47      
+6     A:ALA783        CB           CAK          3.81      
+7     A:PHE786        CD2          CAI          4.27      
+8     A:PHE786        CE2          CAY          3.82      
+9     A:ILE813        CG1          CAA          4.47      
+10    A:MET816        CB           CAI          3.85      
+11    A:PHE820        CB           CAJ          3.96      
+
+
+================================================================================
+METAL COORDINATION (12)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS617        2.30       metal=ZN; metal_id=A:ZN861; metal_atom_name=ZN    
+2     A:HIS653        2.36       metal=ZN; metal_id=A:ZN861; metal_atom_name=ZN    
+3     A:ASP654        2.21       metal=ZN; metal_id=A:ZN861; metal_atom_name=ZN    
+4     A:ASP764        2.25       metal=ZN; metal_id=A:ZN861; metal_atom_name=ZN    
+5     HOH50           2.43       metal=ZN; metal_id=A:ZN861; metal_atom_name=ZN    
+6     HOH866          2.52       metal=ZN; metal_id=A:ZN861; metal_atom_name=ZN    
+7     A:ASP654        2.05       metal=MG; metal_id=A:MG862; metal_atom_name=MG    
+8     HOH4            2.22       metal=MG; metal_id=A:MG862; metal_atom_name=MG    
+9     HOH5            2.42       metal=MG; metal_id=A:MG862; metal_atom_name=MG    
+10    HOH6            2.18       metal=MG; metal_id=A:MG862; metal_atom_name=MG    
+11    HOH50           2.40       metal=MG; metal_id=A:MG862; metal_atom_name=MG    
+12    HOH865          2.20       metal=MG; metal_id=A:MG862; metal_atom_name=MG    
+
+
+================================================================================
+END OF REPORT
+================================================================================

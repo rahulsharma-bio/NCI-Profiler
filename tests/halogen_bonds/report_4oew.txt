@@ -1,0 +1,97 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 4oew.pdb
+Date: 2026-05-26 15:36:22
+Total Interactions: 32
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+π-π Stacking                       1
+XWH Bridges                        3
+Hydrogen Bonds                     3
+Hydrophobic                       13
+Metal Coordination                12
+-----------------------------------
+TOTAL                             32
+
+
+================================================================================
+Π-Π STACKING (1)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:PHE820        π-stacked        3.88       21.9°     
+
+
+================================================================================
+XWH BRIDGES (3)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:TYR612        3.13       halogen=I; water_id=2348; water_res_seq=1005      
+2     A:ASP764        3.09       halogen=I; water_id=2348; water_res_seq=1005      
+3     A:ALA767        3.16       halogen=I; water_id=2348; water_res_seq=1005      
+
+
+================================================================================
+HYDROGEN BONDS (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:GLN817        NE2          OAD          2.95       Protein donor (NE2) -> Ligan  
+2     A:GLN817        OE1          NAS          3.29       Ligand donor (NAS) -> Protei  
+3     A:GLN817        OE1          OAT          3.12       Ligand donor (OAT) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (13)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:TYR612        CE1          CAB          4.21      
+2     A:LEU765        CD2          CAL          3.90      
+3     A:ALA779        CB           CAA          3.84      
+4     A:VAL782        CB           CAA          4.50      
+5     A:VAL782        CG2          CAK          3.66      
+6     A:ALA783        CB           CAK          3.73      
+7     A:PHE786        CD2          CAI          4.14      
+8     A:PHE786        CE2          CAY          4.03      
+9     A:PHE787        CE2          CAK          4.47      
+10    A:ILE813        CG1          CAK          4.30      
+11    A:ILE813        CG2          CAA          4.13      
+12    A:MET816        CB           CAI          4.15      
+13    A:PHE820        CB           CAJ          3.93      
+
+
+================================================================================
+METAL COORDINATION (12)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS617        2.16       metal=ZN; metal_id=A:ZN901; metal_atom_name=ZN    
+2     A:HIS653        2.30       metal=ZN; metal_id=A:ZN901; metal_atom_name=ZN    
+3     A:ASP654        2.11       metal=ZN; metal_id=A:ZN901; metal_atom_name=ZN    
+4     A:ASP764        2.16       metal=ZN; metal_id=A:ZN901; metal_atom_name=ZN    
+5     HOH1002         2.39       metal=ZN; metal_id=A:ZN901; metal_atom_name=ZN    
+6     HOH1003         2.46       metal=ZN; metal_id=A:ZN901; metal_atom_name=ZN    
+7     A:ASP654        1.93       metal=MG; metal_id=A:MG902; metal_atom_name=MG    
+8     HOH1002         2.43       metal=MG; metal_id=A:MG902; metal_atom_name=MG    
+9     HOH1004         2.24       metal=MG; metal_id=A:MG902; metal_atom_name=MG    
+10    HOH1026         1.97       metal=MG; metal_id=A:MG902; metal_atom_name=MG    
+11    HOH1028         2.35       metal=MG; metal_id=A:MG902; metal_atom_name=MG    
+12    HOH1035         2.19       metal=MG; metal_id=A:MG902; metal_atom_name=MG    
+
+
+================================================================================
+END OF REPORT
+================================================================================

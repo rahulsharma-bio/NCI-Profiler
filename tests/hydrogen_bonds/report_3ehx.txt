@@ -1,0 +1,116 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 3ehx.pdb
+Date: 2026-05-26 15:36:22
+Total Interactions: 42
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       4
+π-π Stacking                       2
+Water Bridges                      3
+Hydrogen Bonds                     6
+Hydrophobic                        3
+Metal Coordination                24
+-----------------------------------
+TOTAL                             42
+
+
+================================================================================
+SALT BRIDGES (4)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:HIS218        ND1, NE2     C15, O4      4.33       Protein+ (imidazolium) - Ligand- (carboxylate)
+2     A:HIS222        ND1, NE2     C15, O4      4.36       Protein+ (imidazolium) - Ligand- (carboxylate)
+3     A:HIS228        ND1, NE2     C15, O4      4.51       Protein+ (imidazolium) - Ligand- (carboxylate)
+4     A:GLU219        OE1, OE2     N1           5.05       Protein- (carboxylate) - Ligand+ (primary_amine)
+
+
+================================================================================
+Π-Π STACKING (2)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:HIS218        offset-parallel  4.10       17.9°     
+2     A:HIS218        edge-parallel    4.32       13.4°     
+
+
+================================================================================
+WATER BRIDGES (3)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ALA184        3.07       water_id=1299; water_res_seq=299; prot_water_dist=3.05
+2     A:PRO238        2.80       water_id=1342; water_res_seq=342; prot_water_dist=2.61
+3     A:TYR240        3.10       water_id=1389; water_res_seq=389; prot_water_dist=2.80
+
+
+================================================================================
+HYDROGEN BONDS (6)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:LEU181        N            O1           2.72       Protein donor (N) -> Ligand   
+2     A:ALA182        N            O1           3.17       Protein donor (N) -> Ligand   
+3     A:GLU219        OE1          O4           2.50       Ligand donor (O4) -> Protein  
+4     A:GLU219        OE2          O4           3.20       Ligand donor (O4) -> Protein  
+5     A:ALA182        O            N1           3.43       Ligand donor (N1) -> Protein  
+6     A:ALA182        O            O1           3.23       Ligand donor (O1) -> Protein  
+
+
+================================================================================
+HYDROPHOBIC (3)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:ILE180        CG1          C13          4.11      
+2     A:ILE180        CG2          C18          4.08      
+3     A:HIS183        CB           C18          3.57      
+
+
+================================================================================
+METAL COORDINATION (24)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:HIS218        2.07       metal=ZN; metal_id=A:ZN264; metal_atom_name=ZN    
+2     A:HIS222        2.04       metal=ZN; metal_id=A:ZN264; metal_atom_name=ZN    
+3     A:HIS228        1.94       metal=ZN; metal_id=A:ZN264; metal_atom_name=ZN    
+4     A:HIS168        2.03       metal=ZN; metal_id=A:ZN265; metal_atom_name=ZN    
+5     A:ASP170        1.93       metal=ZN; metal_id=A:ZN265; metal_atom_name=ZN    
+6     A:HIS183        1.98       metal=ZN; metal_id=A:ZN265; metal_atom_name=ZN    
+7     A:HIS196        2.06       metal=ZN; metal_id=A:ZN265; metal_atom_name=ZN    
+8     A:ASP158        2.32       metal=CA; metal_id=A:CA266; metal_atom_name=CA    
+9     A:GLY190        2.36       metal=CA; metal_id=A:CA266; metal_atom_name=CA    
+10    A:GLY192        2.32       metal=CA; metal_id=A:CA266; metal_atom_name=CA    
+11    A:ASP194        2.51       metal=CA; metal_id=A:CA266; metal_atom_name=CA    
+12    HOH287          2.51       metal=CA; metal_id=A:CA266; metal_atom_name=CA    
+13    A:ASP124        2.57       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+14    A:ASP124        2.20       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+15    A:GLU199        2.35       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+16    A:GLU199        2.33       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+17    A:GLU201        2.47       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+18    HOH296          2.63       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+19    HOH310          2.63       metal=CA; metal_id=A:CA267; metal_atom_name=CA    
+20    A:ASP175        2.41       metal=CA; metal_id=A:CA268; metal_atom_name=CA    
+21    A:GLY176        2.28       metal=CA; metal_id=A:CA268; metal_atom_name=CA    
+22    A:GLY178        2.40       metal=CA; metal_id=A:CA268; metal_atom_name=CA    
+23    A:ILE180        2.29       metal=CA; metal_id=A:CA268; metal_atom_name=CA    
+24    A:ASP198        2.34       metal=CA; metal_id=A:CA268; metal_atom_name=CA    
+
+
+================================================================================
+END OF REPORT
+================================================================================

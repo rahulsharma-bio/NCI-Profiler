@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Package metadata
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+
+# Test PDB files (download via tests/download_pdbs.py)
+tests/**/*.pdb
+

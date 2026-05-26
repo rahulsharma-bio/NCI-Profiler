@@ -1,0 +1,93 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 3oya.pdb
+Date: 2026-05-26 15:36:26
+Total Interactions: 28
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Cation-π                           2
+Water Bridges                      4
+Hydrogen Bonds                     8
+Hydrophobic                        1
+Metal Coordination                13
+-----------------------------------
+TOTAL                             28
+
+
+================================================================================
+CATION-Π (2)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:TYR212        4.03       Ligand cation (secondary_amine) -> Protein π (TYR)
+2     A:TYR212        3.82       Ligand cation (secondary_amine) -> Protein π (TYR)
+
+
+================================================================================
+WATER BRIDGES (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:TYR129        2.74       water_id=5171; water_res_seq=400; prot_water_dist=2.56
+2     A:HIS213        3.09       water_id=5269; water_res_seq=498; prot_water_dist=2.95
+3     A:PRO214        3.37       water_id=5269; water_res_seq=498; prot_water_dist=3.49
+4     A:TYR129        3.01       water_id=5305; water_res_seq=534; prot_water_dist=3.06
+
+
+================================================================================
+HYDROGEN BONDS (8)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:TYR212        N            OAT          3.15       Protein donor (N) -> Ligand   
+2     A:GLU221        OE1          OAE          3.03       Ligand donor (OAE) -> Protei  
+3     A:GLU221        OE2          OAE          2.92       Ligand donor (OAE) -> Protei  
+4     A:ASP185        OD1          OAG          2.83       Ligand donor (OAG) -> Protei  
+5     A:ASP128        OD1          OAH          3.13       Ligand donor (OAH) -> Protei  
+6     A:ASP128        OD2          OAH          3.01       Ligand donor (OAH) -> Protei  
+7     A:ASP185        OD1          OAH          3.35       Ligand donor (OAH) -> Protei  
+8     A:GLU221        OE2          OAH          2.96       Ligand donor (OAH) -> Protei  
+
+
+================================================================================
+HYDROPHOBIC (1)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)   
+------------------------------------------------------
+1     A:PRO211        CB           CAA          3.78      
+
+
+================================================================================
+METAL COORDINATION (13)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ASP128        2.08       metal=MG; metal_id=A:MG396; metal_atom_name=MG    
+2     A:ASP185        1.92       metal=MG; metal_id=A:MG396; metal_atom_name=MG    
+3     A:ASP128        2.07       metal=MG; metal_id=A:MG397; metal_atom_name=MG    
+4     A:GLU221        2.09       metal=MG; metal_id=A:MG397; metal_atom_name=MG    
+5     A:GLU221        2.05       metal=MG; metal_id=A:MG397; metal_atom_name=MG    
+6     A:HIS62         1.94       metal=ZN; metal_id=A:ZN393; metal_atom_name=ZN    
+7     A:HIS66         2.03       metal=ZN; metal_id=A:ZN393; metal_atom_name=ZN    
+8     A:CYS96         2.27       metal=ZN; metal_id=A:ZN393; metal_atom_name=ZN    
+9     A:CYS99         2.23       metal=ZN; metal_id=A:ZN393; metal_atom_name=ZN    
+10    B:ASP128        2.36       metal=MG; metal_id=B:MG394; metal_atom_name=MG    
+11    B:ASP185        2.26       metal=MG; metal_id=B:MG394; metal_atom_name=MG    
+12    HOH395          2.24       metal=MG; metal_id=B:MG394; metal_atom_name=MG    
+13    HOH396          2.23       metal=MG; metal_id=B:MG394; metal_atom_name=MG    
+
+
+================================================================================
+END OF REPORT
+================================================================================

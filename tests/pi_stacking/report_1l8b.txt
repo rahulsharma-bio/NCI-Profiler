@@ -1,0 +1,89 @@
+================================================================================
+NON-COVALENT INTERACTION ANALYSIS - TABULAR DATA
+================================================================================
+
+PDB File: 1l8b.pdb
+Date: 2026-05-26 15:36:26
+Total Interactions: 24
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Interaction Type               Count
+-----------------------------------
+Salt Bridges                       8
+π-π Stacking                       2
+Cation-π                           8
+Water Bridges                      4
+Hydrogen Bonds                     2
+-----------------------------------
+TOTAL                             24
+
+
+================================================================================
+SALT BRIDGES (8)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Type                     
+-------------------------------------------------------------------------------
+1     A:ARG157        NE, CZ       PA, O1A      4.91       Protein+ (guanidinium) - Ligand- (phosphate)
+2     A:ARG157        NE, CZ       PB, O3A      4.57       Protein+ (guanidinium) - Ligand- (phosphate)
+3     A:LYS162        NZ           PA, O1A      4.74       Protein+ (primary_amine) - Ligand- (phosphate)
+4     A:LYS162        NZ           PB, O3A      3.63       Protein+ (primary_amine) - Ligand- (phosphate)
+5     A:LYS162        NZ           PC, O3B      4.68       Protein+ (primary_amine) - Ligand- (phosphate)
+6     A:LYS206        NZ           PB, O3A      5.38       Protein+ (primary_amine) - Ligand- (phosphate)
+7     A:LYS206        NZ           PC, O3B      3.13       Protein+ (primary_amine) - Ligand- (phosphate)
+8     A:GLU103        OE1, OE2     C2, N1       3.72       Protein- (carboxylate) - Ligand+ (guanidinium)
+
+
+================================================================================
+Π-Π STACKING (2)
+================================================================================
+
+No.   Residue         Type             Dist(Å)    Angle(°)  
+--------------------------------------------------------
+1     A:TRP56         π-stacked        3.59       2.2°      
+2     A:TRP102        π-stacked        3.83       6.6°      
+
+
+================================================================================
+CATION-Π (8)
+================================================================================
+
+No.   Residue         Dist(Å)    Type                                    
+----------------------------------------------------------------------
+1     A:TRP56         4.16       Ligand cation (guanidinium) -> Protein π (TRP)
+2     A:TRP56         4.50       Ligand cation (guanidinium) -> Protein π (TRP)
+3     A:TRP102        4.50       Ligand cation (guanidinium) -> Protein π (TRP)
+4     A:TRP102        5.44       Ligand cation (guanidinium) -> Protein π (TRP)
+5     A:TRP56         4.12       Ligand cation (amidinium) -> Protein π (TRP)
+6     A:TRP56         3.75       Ligand cation (amidinium) -> Protein π (TRP)
+7     A:TRP102        4.11       Ligand cation (amidinium) -> Protein π (TRP)
+8     A:TRP102        5.05       Ligand cation (amidinium) -> Protein π (TRP)
+
+
+================================================================================
+WATER BRIDGES (4)
+================================================================================
+
+No.   Residue         Dist(Å)    Details                                           
+--------------------------------------------------------------------------------
+1     A:ARG112        2.77       water_id=3083; water_res_seq=1021; prot_water_dist=2.68
+2     A:ASN155        2.83       water_id=3083; water_res_seq=1021; prot_water_dist=2.80
+3     A:ASN155        3.01       water_id=3083; water_res_seq=1021; prot_water_dist=2.80
+4     A:ASP90         2.78       water_id=3106; water_res_seq=1044; prot_water_dist=2.76
+
+
+================================================================================
+HYDROGEN BONDS (2)
+================================================================================
+
+No.   Residue         Prot Atom    Lig Atom     Dist(Å)    Role                          
+------------------------------------------------------------------------------------
+1     A:TRP56         NE1          N9           3.43       Protein donor (NE1) -> Ligan  
+2     A:TRP102        N            O6           2.78       Protein donor (N) -> Ligand   
+
+
+================================================================================
+END OF REPORT
+================================================================================
