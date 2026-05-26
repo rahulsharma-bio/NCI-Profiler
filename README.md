@@ -14,7 +14,7 @@ third-party dependencies.
 Isolated install, works on all systems with no PATH issues:
 
 ```bash
-git clone https://github.com/your-repo/ncip-cli.git
+git clone https://github.com/playDNA-design/NCI-Profiler.git
 cd ncip-cli
 python3 -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
