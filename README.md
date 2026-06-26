@@ -15,7 +15,7 @@ Isolated install, works on all systems with no PATH issues:
 
 ```bash
 git clone https://github.com/playDNA-design/NCI-Profiler.git
-cd ncip-cli
+cd NCI-Profiler
 python3 -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
 pip install -e .
