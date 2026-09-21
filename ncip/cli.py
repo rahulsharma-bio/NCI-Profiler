@@ -27,6 +27,7 @@ import sys
 import tempfile
 import urllib.request
 import urllib.error
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 from collections import defaultdict
 
@@ -273,7 +274,8 @@ def results_to_json(all_results: dict) -> list:
                     ],
                     'extra_info': {
                         k: v for k, v in inter.extra_info.items()
-                        if not isinstance(v, (list, dict)) or k in ('observed_angles',)
+                        if isinstance(v, (str, int, float, bool, type(None)))
+                        or (k in ('observed_angles',) and isinstance(v, (list, dict)))
                     }
                 }
                 entry['interactions'].append(record)
@@ -393,8 +395,26 @@ def process_single(pdb_file: str, args, ligand_name: str = None,
     return all_results
 
 
+def _batch_worker(pdb_file_str: str, args) -> dict:
+    """Run analysis on one file for batch mode. Runs in its own worker process.
+
+    Takes an already-prepared, file-specific args namespace (output paths
+    set, quiet forced on) so no shared state is mutated across workers.
+    """
+    pdb_file = Path(pdb_file_str)
+    try:
+        all_results = process_single(pdb_file_str, args)
+        total = sum(
+            len(v) for data in all_results.values()
+            for v in data['results'].values()
+        )
+        return {'file': pdb_file.name, 'interactions': total}
+    except Exception as e:
+        return {'file': pdb_file.name, 'interactions': -1, 'error': str(e)}
+
+
 def batch_process(input_dir: str, output_dir: str, args) -> None:
-    """Process all PDB files in a directory."""
+    """Process all PDB files in a directory, in parallel across worker processes."""
     input_path = Path(input_dir)
     pdb_files = sorted(list(input_path.glob('*.pdb')) + list(input_path.glob('*.ent')))
 
@@ -404,53 +424,47 @@ def batch_process(input_dir: str, output_dir: str, args) -> None:
 
     os.makedirs(output_dir, exist_ok=True)
 
-    print(f"\nBatch processing {len(pdb_files)} files...")
+    threads = args.threads if args.threads else (os.cpu_count() or 1)
+    threads = max(1, min(threads, len(pdb_files)))
+
+    print(f"\nBatch processing {len(pdb_files)} files using {threads} worker "
+          f"process{'es' if threads != 1 else ''}...")
     print(f"Output directory: {output_dir}\n")
 
-    summary = []
-    for i, pdb_file in enumerate(pdb_files, 1):
+    # Build one independent, file-specific args namespace per file so
+    # workers never share or mutate a common object.
+    jobs = []
+    for pdb_file in pdb_files:
         stem = pdb_file.stem
-        print(f"[{i}/{len(pdb_files)}] {pdb_file.name}...", end=" ", flush=True)
+        file_args = argparse.Namespace(**vars(args))
+        if args.json:
+            file_args.json = os.path.join(output_dir, f"{stem}.json")
+        if args.csv:
+            file_args.csv = os.path.join(output_dir, f"{stem}.csv")
+        if args.txt:
+            file_args.txt = os.path.join(output_dir, f"{stem}.txt")
+        if args.pml:
+            file_args.pml = os.path.join(output_dir, f"{stem}.pml")
+        file_args.quiet = True
+        jobs.append((str(pdb_file), file_args))
 
-        try:
-            # Temporarily override output paths
-            orig_json = args.json
-            orig_csv = args.csv
-            orig_txt = args.txt
-            orig_pml = args.pml
+    results_by_file = {}
+    done = 0
+    with ProcessPoolExecutor(max_workers=threads) as executor:
+        futures = {
+            executor.submit(_batch_worker, pdb_file_str, file_args): pdb_file_str
+            for pdb_file_str, file_args in jobs
+        }
+        for future in as_completed(futures):
+            done += 1
+            result = future.result()
+            results_by_file[result['file']] = result
+            status = f"{result['interactions']} interactions" if 'error' not in result \
+                else f"ERROR: {result['error']}"
+            print(f"[{done}/{len(pdb_files)}] {result['file']}... {status}")
 
-            if args.json:
-                args.json = os.path.join(output_dir, f"{stem}.json")
-            if args.csv:
-                args.csv = os.path.join(output_dir, f"{stem}.csv")
-            if args.txt:
-                args.txt = os.path.join(output_dir, f"{stem}.txt")
-            if args.pml:
-                args.pml = os.path.join(output_dir, f"{stem}.pml")
-
-            # Force quiet for batch
-            orig_quiet = args.quiet
-            args.quiet = True
-
-            all_results = process_single(str(pdb_file), args)
-
-            total = sum(
-                len(v) for data in all_results.values()
-                for v in data['results'].values()
-            )
-            print(f"{total} interactions")
-            summary.append({'file': pdb_file.name, 'interactions': total})
-
-            # Restore args
-            args.json = orig_json
-            args.csv = orig_csv
-            args.txt = orig_txt
-            args.pml = orig_pml
-            args.quiet = orig_quiet
-
-        except Exception as e:
-            print(f"ERROR: {e}")
-            summary.append({'file': pdb_file.name, 'interactions': -1, 'error': str(e)})
+    # Keep summary in the same order as the input directory listing
+    summary = [results_by_file[pdb_file.name] for pdb_file in pdb_files]
 
     # Write batch summary
     summary_path = os.path.join(output_dir, "batch_summary.json")
@@ -466,7 +480,7 @@ def main():
     """Main entry point for the CLI."""
     parser = argparse.ArgumentParser(
         prog='ncip',
-        usage='%(prog)s [-h] [-v] [<.pdb>] [--fetch PDB_ID] [--batch DIR]\n'
+        usage='%(prog)s [-h] [-v] [<.pdb>] [--fetch PDB_ID] [--batch DIR] [-j N]\n'
               '            [-l NAME] [-c ID] [-r NUM]\n'
               '            [--exclude-cofactors] [--exclude-glycans]\n'
               '            [--no-filter] [--list] [--config FILE]\n'
@@ -480,6 +494,7 @@ SYNOPSIS
   %(prog)s structure.pdb [-l NAME] [--json FILE] [--csv FILE] [--pml FILE]
   %(prog)s --fetch PDB_ID [PDB_ID ...] [-l NAME] [--json FILE]
   %(prog)s --batch DIR/ -o results/ [--json] [--csv]
+  %(prog)s --batch DIR/ -o results/ -j N        # limit to N parallel workers
   %(prog)s structure.pdb --list
   %(prog)s --fetch PDB_ID --list
 
@@ -513,7 +528,9 @@ DESCRIPTION
   interaction dashes, distance labels, and toggleable groups per ligand.
 
   For high-throughput work, --batch processes all PDB files in a directory
-  and writes per-structure output files plus a batch_summary.json.""",
+  and writes per-structure output files plus a batch_summary.json. Files
+  are processed in parallel across worker processes; -j/--threads controls
+  how many (default: all available CPU cores).""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=None
     )
@@ -535,6 +552,13 @@ DESCRIPTION
         '--batch',
         metavar='DIR',
         help='Process all PDB files in a directory'
+    )
+    input_group.add_argument(
+        '-j', '--threads',
+        type=int,
+        metavar='N',
+        default=None,
+        help='Worker processes for --batch mode (default: all available CPU cores)'
     )
 
     # Molecule selection
