@@ -14,7 +14,7 @@ third-party dependencies.
 Isolated install, works on all systems with no PATH issues:
 
 ```bash
-git clone https://github.com/playDNA-design/NCI-Profiler.git
+git clone https://github.com/rahulsharma-bio/NCI-Profiler.git
 cd NCI-Profiler
 python3 -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
@@ -31,6 +31,7 @@ pip install -e . --break-system-packages
 ```
 
 Then add `~/.local/bin` to your PATH if not already present (one-time setup):
+
 ```bash
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
@@ -104,34 +105,35 @@ To open a `.pml` script manually in PyMOL:
 ```bash
 pymol output.pml
 ```
+
 > **Note:** The `.pml` script references the PDB file by path. For the
 > visualization to load correctly, the PDB file must be in the same folder
 > as the `.pml` script, or the path inside the script must be updated.
 
 | Color      | Interaction type     |
-|------------|----------------------|
+| ---------- | -------------------- |
 | Yellow     | Hydrogen bonds       |
 | Magenta    | Salt bridges         |
 | Gray       | Hydrophobic contacts |
-| Cyan       | π–π stacking         |
-| Green      | Cation–π             |
+| Cyan       | π–π stacking      |
+| Green      | Cation–π           |
 | Orange     | Halogen bonds        |
 | Light blue | Water / XWH bridges  |
 | Purple     | Metal coordination   |
 
 ## Supported Interaction Types
 
-| Interaction Type     | Key Geometric Criteria             | Reference                    |
-|----------------------|------------------------------------|------------------------------|
-| Hydrogen Bonds       | D–A ≤ 3.5 Å, angle ≥ 120°         | Jeffrey (1997)               |
-| Salt Bridges         | Distance ≤ 4.0 Å                   | Barlow & Thornton (1983)     |
-| Hydrophobic Contacts | 3.3–4.0 Å (C···C)                  | Bissantz et al. (2010)       |
-| π–π Stacking         | Centroid ≤ 5.5 Å, angle-dependent  | Calinsky & Levy (2024)       |
-| Cation–π             | Cation–centroid ≤ 6.0 Å            | Dougherty (1996)             |
-| Halogen Bonds        | D ≤ 3.5 Å, C–X···Y ≥ 140°         | Scholfield et al. (2013)     |
-| Water Bridges        | D ≤ 3.5 Å via water                | Barillari et al. (2007)      |
-| XWH Bridges          | X···W + W···H bridge               | Zhou et al. (2010)           |
-| Metal Coordination   | M–L ≤ 2.8 Å + geometry fitting     | Harding (2001)               |
+| Interaction Type     | Key Geometric Criteria              | Reference                |
+| -------------------- | ----------------------------------- | ------------------------ |
+| Hydrogen Bonds       | D–A ≤ 3.5 Å, angle ≥ 120°      | Jeffrey (1997)           |
+| Salt Bridges         | Distance ≤ 4.0 Å                  | Barlow & Thornton (1983) |
+| Hydrophobic Contacts | 3.3–4.0 Å (C···C)              | Bissantz et al. (2010)   |
+| π–π Stacking      | Centroid ≤ 5.5 Å, angle-dependent | Calinsky & Levy (2024)   |
+| Cation–π           | Cation–centroid ≤ 6.0 Å          | Dougherty (1996)         |
+| Halogen Bonds        | D ≤ 3.5 Å, C–X···Y ≥ 140°   | Scholfield et al. (2013) |
+| Water Bridges        | D ≤ 3.5 Å via water               | Barillari et al. (2007)  |
+| XWH Bridges          | X···W + W···H bridge          | Zhou et al. (2010)       |
+| Metal Coordination   | M–L ≤ 2.8 Å + geometry fitting   | Harding (2001)           |
 
 ## License
 
